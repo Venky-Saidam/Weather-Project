@@ -1,64 +1,62 @@
-🌤️ WeatherVerse (Weather App)
-A modern and interactive weather application built using React that provides real-time weather information based on the user’s current location, searched cities, and selected countries. WeatherVerse delivers a visually appealing glassmorphism UI with live time updates, nearby place distances, and country-level weather insights for an enhanced user experience.
+🌤 WeatherVerse (Weather App)
+
+A modern and interactive weather application built using React. WeatherVerse provides real-time weather information based on the user’s current location, searched cities, nearby places, and selected countries. The app features a clean glassmorphism UI, live time updates, and accurate distance calculations to enhance user experience.
 
 ---
 
-🌟 Live Features
+🌟 Commands for Running the App
 
-📍 Automatic Location Detection  
-- Detects user’s current location using browser geolocation  
-- Displays real-time weather with a “You are here” indicator  
+- ⚛️ npm install  
+  Install all required dependencies for the project.
 
-🔍 City Search  
-- Search for any city worldwide  
-- View temperature, humidity, wind speed, and weather conditions  
-- Option to return back to current location weather  
-
-🌍 Country Weather Explorer  
-- Select a country to view weather in famous cities  
-- Displays live running local time for the selected country  
-- Country cards rendered using reusable components  
-
-🌆 Nearby Places  
-- Shows nearby locations based on your current position  
-- Calculates and displays real distance (km) using the Haversine formula  
-
-🕒 Live Time Updates  
-- Live running local time for current location  
-- Live running time for selected countries (timezone-aware)  
-
-🌞🌙 Dynamic Favicon  
-- Sun icon during daytime  
-- Moon icon during nighttime  
-- Uses real sunrise & sunset data from Weather API  
-
-🎨 Glassmorphism UI  
-- Frosted glass effect cards  
-- Subtle glowing edges  
-- Smooth animations & transitions  
-- Light/Dark mode toggle  
+- ▶️ npm start  
+  Runs the app in development mode.  
+  Open http://localhost:3000 to view it in the browser.
 
 ---
 
-⚙️ Tech Stack
+🌟 Features
 
-Frontend  
-⚛️ React.js  
-🎨 Bootstrap 5  
-🎭 Custom Glassmorphism CSS  
+- 📍 Automatic Location Detection  
+  Detects the user’s current location using the browser’s Geolocation API and displays real-time weather data.
 
-APIs  
-🌦 OpenWeatherMap API  
-📍 Browser Geolocation API  
+- 🌤 Current Location Weather  
+  Shows temperature, humidity, wind speed, weather conditions, sunrise & sunset times, and live local time.
 
-Utilities  
-📏 Haversine Formula (Distance Calculation)  
-🌐 Timezone-based time handling  
+- 🔍 City Search  
+  Search for any city worldwide and view its real-time weather details. Includes a “Back to My Location” option.
+
+- 🌆 Nearby Places  
+  Displays nearby locations along with their weather details and real distance (in kilometers) from the user’s location using the Haversine formula.
+
+- 🌍 Country Weather Explorer  
+  Allows users to select a country and view weather information for famous cities within that country.
+
+- 🕒 Live Time Display  
+  Shows a continuously running local time for:
+  - Current user location
+  - Selected country (timezone-aware)
+
+- 🌞🌙 Dynamic Favicon  
+  Automatically switches between sun and moon icons based on real sunrise and sunset times from the Weather API.
+
+- 🎨 Glassmorphism UI & Dark Mode  
+  Features frosted-glass cards, subtle glowing effects, smooth animations, and a dark/light mode toggle.
 
 ---
 
-🚀 Commands to Run the App
+🛠 Tech Stack
 
-📦 Install Dependencies  
-```bash
-npm install
+- ⚛️ Frontend: React.js  
+- 🎨 Styling: Bootstrap v5, Custom CSS (Glassmorphism)  
+- 🌦 API: OpenWeatherMap API  
+- 📍 Location: Browser Geolocation API  
+
+---
+
+🔐 Environment Variables
+
+Create a `.env` file in the root directory and add:
+
+```env
+REACT_APP_WEATHER_API_KEY=your_openweather_api_key
