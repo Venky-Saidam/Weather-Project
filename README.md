@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+🌤️ WeatherVerse (Weather App)
+A modern and interactive weather application built using React that provides real-time weather information based on the user’s current location, searched cities, and selected countries. WeatherVerse delivers a visually appealing glassmorphism UI with live time updates, nearby place distances, and country-level weather insights for an enhanced user experience.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+---
 
-## Available Scripts
+🌟 Live Features
 
-In the project directory, you can run:
+📍 Automatic Location Detection  
+- Detects user’s current location using browser geolocation  
+- Displays real-time weather with a “You are here” indicator  
 
-### `npm start`
+🔍 City Search  
+- Search for any city worldwide  
+- View temperature, humidity, wind speed, and weather conditions  
+- Option to return back to current location weather  
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+🌍 Country Weather Explorer  
+- Select a country to view weather in famous cities  
+- Displays live running local time for the selected country  
+- Country cards rendered using reusable components  
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+🌆 Nearby Places  
+- Shows nearby locations based on your current position  
+- Calculates and displays real distance (km) using the Haversine formula  
 
-### `npm test`
+🕒 Live Time Updates  
+- Live running local time for current location  
+- Live running time for selected countries (timezone-aware)  
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+🌞🌙 Dynamic Favicon  
+- Sun icon during daytime  
+- Moon icon during nighttime  
+- Uses real sunrise & sunset data from Weather API  
 
-### `npm run build`
+🎨 Glassmorphism UI  
+- Frosted glass effect cards  
+- Subtle glowing edges  
+- Smooth animations & transitions  
+- Light/Dark mode toggle  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+⚙️ Tech Stack
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Frontend  
+⚛️ React.js  
+🎨 Bootstrap 5  
+🎭 Custom Glassmorphism CSS  
 
-### `npm run eject`
+APIs  
+🌦 OpenWeatherMap API  
+📍 Browser Geolocation API  
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Utilities  
+📏 Haversine Formula (Distance Calculation)  
+🌐 Timezone-based time handling  
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+🚀 Commands to Run the App
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📦 Install Dependencies  
+```bash
+npm install
