@@ -1,0 +1,8 @@
+.light {
+  color: #ffffff;
+}
+
+.dark {
+  color: #e5e7eb;
+  background: linear-gradient(135deg, #0f172a, #020617);
+}

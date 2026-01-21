@@ -1,0 +1,17 @@
+:root {
+  /* Brand colors */
+  --primary: #38bdf8;   /* sky blue */
+  --secondary: #22c55e; /* fresh green */
+  --accent: #a78bfa;    /* soft violet */
+
+  /* Glow colors */
+  --glow-primary: rgba(56, 189, 248, 0.45);
+  --glow-soft: rgba(255, 255, 255, 0.25);
+}
+
+/* Background */
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+}
