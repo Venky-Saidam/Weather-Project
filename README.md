@@ -52,11 +52,4 @@ A modern and interactive weather application built using React. WeatherVerse pro
 - 🌦 API: OpenWeatherMap API  
 - 📍 Location: Browser Geolocation API  
 
----
 
-🔐 Environment Variables
-
-Create a `.env` file in the root directory and add:
-
-```env
-REACT_APP_WEATHER_API_KEY=your_openweather_api_key
