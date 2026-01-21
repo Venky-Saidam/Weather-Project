@@ -12,10 +12,10 @@ A modern and interactive weather application built using React. WeatherVerse pro
 - ▶️ **npm start**  
   Runs the app in development mode.  
 
-  - 🚀 **npm run build**
+- 🚀 **npm run build**
 Creates an optimized production build of the application.
 
-  - 🌐**Deployment**
+- 🌐**Deployment**
 The project is deployed using Vercel, which automatically runs the build and deployment process on every push to GitHub.
 
 
